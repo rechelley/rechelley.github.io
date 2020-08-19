@@ -180,8 +180,8 @@ li {
     padding-top: 49px;
   }
   .desc {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding:15px;
+    
   }
 }
 @media (max-width:1314px) {
