@@ -1,1 +1,311 @@
-/* CSS Document */body {  margin: 0;  color: #C2C2C2;  font-family: 'Fira Sans Condensed', sans-serif;}a {  color: inherit;  text-decoration: none;}a:hover {  color: #7FBAB9;  text-decoration: none;}/*Top Container*/h1 {  color: lightgrey;  display: inline-block;  font-family: 'Assistant', sans-serif;  letter-spacing: 55px;  margin-top: 0;  margin-bottom: 0;  padding: 10px;  text-align: center;  z-index: 2;  position: absolute;}h1, nav {  background-color: #182938;  width: 100%;}/*Navigation Bar*/li {  text-decoration: none;  color: #C2C2C2;  padding: 0 20px;}.title {  color: #C2C2C2;  font-weight: 500;  font-size: 1.1em;  padding-left: 20px;}.ef {  font-family: 'Fira Sans Condensed', sans-serif;  letter-spacing: .1em;}.dp {  font-family: 'Satisfy', cursive;  padding-left: 3.5px;}.navbar-nav .nav-item .nav-link:hover {  color: #7FBAB9;}.mynavbar {  z-index: 1;}/*Top Container*/.top-container {  position: relative;}.main-img {  display: block;  margin-left: 25%;  padding-top: 35px;  width: 70%;}.main-img-crop {  background-color: #060606;  max-height: 685px;  overflow: hidden;}/*Middle Container */.middle-container {  background-color: #DADADA;  color: #333333;  width: 100%;  margin: auto;}.desc {  padding: 40px;  text-align: justify;}.konzerte {  text-align: center;}.uni-konzert {  display: block;  max-width: 40%;  height: auto;  margin: auto;}/*Carousel*/.carousel-posters-heading {  padding-top: 10px;}.carousel-container {  padding: 0;  margin-bottom: 20px;}.carousel-item {  padding: 3% -5%;}.carousel-control-prev, .carousel-control-next {  z-index: 0;}/*Footer*/.bottom-container {  background-color: #182938;    padding-bottom: 2px;  text-align: center;}.ul-footer {  width: 80%;  position: relative;  margin: auto;}.li-footer {  display: inline-block;  padding:20px 20px;}.fae {  font-size: 32px;}.rechelle {  font-size: 10px;  letter-spacing: .5px;}.hover-me:hover {  font-size: 12px;}.fa-me {  font-size: 12px;  }/*Responsiveness*/@media (max-width: 767px) {	html {  overflow-x: hidden;}	li {		background-color: #182938;	}	  h1 {    font-size: 30px;    letter-spacing: 5px;    height: 55px;    margin-top: 0;    margin-bottom: 0;    padding-top: 8px;  }  nav {    height: 55px;  }  .title {    font-size: 14px;      }  .main-img {    padding-top: 49px;  }  .desc {    padding-top: 15px;    padding-bottom: 15px;  }}@media (max-width:1314px) {	html {  overflow-x: hidden;}  h1 {    letter-spacing: 50px;  }}@media (max-width:1229px) {	html {  overflow-x: hidden;}  h1 {    letter-spacing: 45px;  }}@media (max-width:1144px) {	html {  overflow-x: hidden;}  h1 {    letter-spacing: 35px;  }}@media (max-width:974px) {	html {  overflow-x: hidden;}  h1 {    letter-spacing: 30px;	}	  html {  overflow-x: hidden;}  }@media (max-width:889px) {	html {  overflow-x: hidden;}  h1 {    letter-spacing: 20px;  }	}@media (max-width:650px) {	html {  overflow-x: hidden;}  h1 {    letter-spacing: 10px;  }		}	@media (max-width:550px) {	html {  overflow-x: hidden;}  h1 {    letter-spacing: 6px;    font-size: 25px;    padding-top: 10px;  }		}@media (max-width:375px) {	html {  overflow-x: hidden;}	h1 {    letter-spacing: 5px;    font-size: 22px;    padding-top: 12px;  }	.title {    font-size: 12px;      }	}@media (max-width:320px) {	html {  overflow-x: hidden;}	h1 {    letter-spacing: 3px;    font-size: 22px;    padding-top: 12px;  }	.title {    font-size: 10px;      }	}/* Media Query for Mobile Devices         @media (max-width: 480px) {                    }                   /* Media Query for low resolution  Tablets, Ipads         @media (min-width: 481px) and (max-width: 767px) {                     }                   /* Media Query for Tablets Ipads portrait mode         @media (min-width: 768px) and (max-width: 1024px){                    }                   /* Media Query for Laptops and Desktops         @media (min-width: 1025px) and (max-width: 1280px){                      }                   /* Media Query for Large screens         @media (min-width: 1281px) {             */
+/* CSS Document */
+body {
+  margin: 0;
+  color: #C2C2C2;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: #7FBAB9;
+  text-decoration: none;
+}
+
+
+
+/*Top Container*/
+
+h1 {
+  color: lightgrey;
+  display: inline-block;
+  font-family: 'Assistant', sans-serif;
+  letter-spacing: 55px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+}
+h1, nav {
+  background-color: #182938;
+  width: 100%;
+}
+
+/*Navigation Bar*/
+
+li {
+  text-decoration: none;
+  color: #C2C2C2;
+  padding: 0 20px;
+}
+
+.title {
+  color: #C2C2C2;
+  font-weight: 500;
+  font-size: 1.1em;
+  padding-left: 20px;
+}
+.ef {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  letter-spacing: .1em;
+}
+.dp {
+  font-family: 'Satisfy', cursive;
+  padding-left: 3.5px;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #7FBAB9;
+}
+.mynavbar {
+  z-index: 1;
+}
+
+/*Top Container*/
+
+.top-container {
+  position: relative;
+}
+.main-img {
+  display: block;
+  margin-left: 25%;
+  padding-top: 35px;
+  width: 70%;
+}
+.main-img-crop {
+  background-color: #060606;
+  max-height: 685px;
+  overflow: hidden;
+}
+
+/*Middle Container */
+
+.middle-container {
+  background-color: #DADADA;
+  color: #333333;
+  width: 100%;
+  margin: auto;
+}
+.desc {
+  padding: 40px;
+  text-align: justify;
+}
+.konzerte {
+  text-align: center;
+}
+.uni-konzert {
+  display: block;
+  max-width: 40%;
+  height: auto;
+  margin: auto;
+}
+
+/*Carousel*/
+
+.carousel-posters-heading {
+  padding-top: 10px;
+}
+.carousel-container {
+  padding: 0;
+  margin-bottom: 20px;
+}
+.carousel-item {
+  padding: 3% -5%;
+}
+.carousel-control-prev, .carousel-control-next {
+  z-index: 0;
+}
+
+/*Footer*/
+
+.bottom-container {
+  background-color: #182938;
+  margin-top:10px;
+  padding-top:5px;
+  padding-bottom: 2px;
+  text-align: center;
+}
+.ul-footer {
+  width: 80%;
+  position: relative;
+  margin: auto;
+}
+.li-footer {
+  display: inline-block;
+  padding:20px 20px;
+}
+.fae {
+  font-size: 32px;
+}
+.rechelle {
+  font-size: 10px;
+  letter-spacing: .5px;
+}
+.hover-me:hover {
+  font-size: 12px;
+}
+.fa-me {
+  font-size: 12px;
+  
+}
+
+
+/*Responsiveness*/
+@media (max-width: 767px) {
+	html {
+  overflow-x: hidden;
+}
+	li {
+		background-color: #182938;
+	}
+	
+  h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    height: 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 8px;
+  }
+  nav {
+    height: 55px;
+  }
+  .title {
+    font-size: 14px;
+    
+  }
+  .main-img {
+    padding-top: 49px;
+  }
+  .desc {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width:1314px) {
+	html {
+  overflow-x: hidden;
+}
+  h1 {
+    letter-spacing: 50px;
+  }
+}
+@media (max-width:1229px) {
+	html {
+  overflow-x: hidden;
+}
+  h1 {
+    letter-spacing: 45px;
+  }
+}
+@media (max-width:1144px) {
+	html {
+  overflow-x: hidden;
+}
+  h1 {
+    letter-spacing: 35px;
+  }
+}
+@media (max-width:974px) {
+	html {
+  overflow-x: hidden;
+}
+  h1 {
+    letter-spacing: 30px;
+	}
+	  html {
+  overflow-x: hidden;
+}
+  }
+
+@media (max-width:889px) {
+	html {
+  overflow-x: hidden;
+}
+  h1 {
+    letter-spacing: 20px;
+  }
+	
+}
+@media (max-width:650px) {
+	html {
+  overflow-x: hidden;
+}
+  h1 {
+    letter-spacing: 10px;
+  }
+	
+	
+}
+	
+@media (max-width:550px) {
+	html {
+  overflow-x: hidden;
+}
+  h1 {
+    letter-spacing: 6px;
+    font-size: 25px;
+    padding-top: 10px;
+  }
+	
+	
+}
+
+@media (max-width:375px) {
+	html {
+  overflow-x: hidden;
+}
+	h1 {
+    letter-spacing: 5px;
+    font-size: 22px;
+    padding-top: 12px;
+  }
+	.title {
+    font-size: 12px;
+    
+  }
+	
+}
+
+@media (max-width:320px) {
+	html {
+  overflow-x: hidden;
+}
+	h1 {
+    letter-spacing: 3px;
+    font-size: 22px;
+    padding-top: 12px;
+  }
+	.title {
+    font-size: 10px;
+    
+  }
+	
+}
+
+/* Media Query for Mobile Devices 
+        @media (max-width: 480px) { 
+           
+        } 
+          
+        /* Media Query for low resolution  Tablets, Ipads 
+        @media (min-width: 481px) and (max-width: 767px) { 
+            
+        } 
+          
+        /* Media Query for Tablets Ipads portrait mode 
+        @media (min-width: 768px) and (max-width: 1024px){ 
+           
+        } 
+          
+        /* Media Query for Laptops and Desktops 
+        @media (min-width: 1025px) and (max-width: 1280px){ 
+             
+        } 
+          
+        /* Media Query for Large screens 
+        @media (min-width: 1281px) { 
+            
+*/
